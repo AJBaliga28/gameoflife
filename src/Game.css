@@ -1,0 +1,39 @@
+*{
+    background-color: lightgreen;
+}
+
+h1{
+    padding: 10px;
+    color: black;
+    border: rgb(2, 36, 101) solid 10px;
+}
+
+h3{
+    text-decoration: dashed;
+}
+
+p{
+    border: rgb(2, 36, 101) solid 10px;
+    color:rgb(150, 3, 146);
+    padding: 10px;
+}
+
+
+li{
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    list-style-type: decimal;
+}
+
+.Board{
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(2, 36, 101) ;
+    background-image: linear-gradient(rgb(150, 3, 146) 1px, transparent 1px), linear-gradient(90deg,rgb(150, 3, 146)  1px, transparent 1px);
+}
+
+.Cell{
+    background: rgb(227, 227, 14);
+    position: absolute;
+}
